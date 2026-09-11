@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Outpost Control, an offline Mars oxygen strategy game for iPhone.">
+  <title>Outpost Control Support</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --sky: #10152b;
+      --panel: #1a2140;
+      --line: #495782;
+      --text: #f1eadf;
+      --muted: #bdc7df;
+      --mars: #d86f45;
+      --oxygen: #67d4d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 18% 12%, #2c365e 0 2px, transparent 3px),
+        radial-gradient(circle at 78% 20%, #777fa0 0 1px, transparent 2px),
+        linear-gradient(180deg, var(--sky) 0 58%, #6f392f 58%, #9b4c36 100%);
+      background-size: 180px 140px, 230px 170px, auto;
+      line-height: 1.6;
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: 32px;
+      border: 4px solid var(--line);
+      border-radius: 8px;
+      background: color-mix(in srgb, var(--panel) 94%, transparent);
+      box-shadow: 12px 12px 0 #552c2a;
+    }
+    h1, h2 { line-height: 1.2; }
+    h1 { color: var(--mars); margin-top: 0; }
+    h2 { color: var(--oxygen); margin-top: 28px; }
+    a { color: var(--oxygen); }
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border: 2px solid var(--oxygen);
+      color: var(--oxygen);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    footer { margin-top: 32px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="badge">Mission Support</p>
+    <h1>Outpost Control</h1>
+    <p>Outpost Control is an offline, turn-based oxygen logistics game for iPhone.</p>
+
+    <h2>Common questions</h2>
+    <p><strong>Is an account required?</strong><br>No. Progress and settings stay on your device.</p>
+    <p><strong>Does the game require an internet connection?</strong><br>No. All gameplay works offline.</p>
+    <p><strong>How do I reset progress?</strong><br>Delete the app from your iPhone and install it again. This permanently removes local progress.</p>
+
+    <h2>Get help</h2>
+    <p>If something does not work as expected, open a public support request and include your iPhone model, iOS version, and a short description of what happened.</p>
+    <p><a href="https://github.com/Zhdankin/outpost-control-support/issues">Open a support request</a></p>
+
+    <h2>Privacy</h2>
+    <p><a href="privacy.html">Read the Outpost Control Privacy Policy</a></p>
+
+    <footer>Last updated: September 11, 2026</footer>
+  </main>
+</body>
+</html>
